@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuoCast | Infraestrutura e Sincronização Digital</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0F172A; color: #F8FAFC; }
+        .tech-gradient { background: linear-gradient(135deg, #1E40AF, #1E1B4B); }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.05); }
+        
+        .reveal { opacity: 0; transform: translateY(20px); transition: 0.8s all ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 glass border-b py-5 px-8 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center font-black italic text-lg shadow-lg shadow-blue-500/20">D</div>
+            <span class="font-black tracking-tighter text-2xl uppercase italic">Duo<span class="text-blue-600">Cast</span></span>
+        </div>
+        <a href="#licenciamento" class="bg-blue-600 hover:bg-blue-700 text-white text-[10px] font-black uppercase px-6 py-3 rounded-2xl transition-all">
+            Ativar Licença
+        </a>
+    </nav>
+
+    <section class="min-h-screen flex flex-col items-center justify-center px-6 text-center pt-20">
+        <div class="inline-block px-4 py-2 bg-blue-600/10 rounded-full border border-blue-600/20 mb-8 reveal">
+            <span class="text-blue-500 font-black uppercase text-[10px] tracking-widest">Tecnologia de Transmissão DuoCast</span>
+        </div>
+        
+        <h1 class="text-5xl md:text-7xl font-black tracking-tighter mb-8 reveal">
+            Sincronização de <br> <span class="text-blue-600">Protocolos Digitais</span>
+        </h1>
+        <p class="max-w-2xl text-slate-500 text-lg md:text-xl mb-12 reveal" style="transition-delay: 200ms;">
+            Infraestrutura de alta performance para processamento de pacotes e gestão de ativos digitais em tempo real. Estabilidade total sob demanda.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-6 reveal" style="transition-delay: 400ms;">
+            <a href="#licenciamento" class="bg-blue-600 hover:bg-blue-700 px-10 py-5 rounded-2xl font-black uppercase tracking-widest text-sm transition-all shadow-xl shadow-blue-600/20">
+                Obter Licença de Uso
+            </a>
+            <div class="flex items-center gap-3 px-6 py-5 opacity-40">
+                <i class="fa-solid fa-code text-blue-500"></i>
+                <span class="text-[10px] font-black uppercase">v2.8 Stable Release</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-32 px-6 bg-[#0B1222]">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="glass p-12 rounded-[3rem] reveal">
+                <i class="fa-solid fa-microchip text-3xl text-blue-600 mb-8"></i>
+                <h3 class="font-black text-xl mb-4 uppercase italic">Processamento Edge</h3>
+                <p class="text-slate-500 text-sm leading-relaxed">Redução drástica de latência através de processamento em borda, garantindo fluxo de dados contínuo.</p>
+            </div>
+            <div class="glass p-12 rounded-[3rem] reveal" style="transition-delay: 200ms;">
+                <i class="fa-solid fa-shield-nodes text-3xl text-teal-400 mb-8"></i>
+                <h3 class="font-black text-xl mb-4 uppercase italic">Redundância de Rede</h3>
+                <p class="text-slate-500 text-sm leading-relaxed">Sincronização automática entre múltiplos servidores (DuoCast) para failover instantâneo sem quedas.</p>
+            </div>
+            <div class="glass p-12 rounded-[3rem] reveal" style="transition-delay: 400ms;">
+                <i class="fa-solid fa-cloud-arrow-down text-3xl text-purple-500 mb-8"></i>
+                <h3 class="font-black text-xl mb-4 uppercase italic">Ativos Dinâmicos</h3>
+                <p class="text-slate-500 text-sm leading-relaxed">Acesso a bibliotecas de ativos digitais otimizados com protocolos de compressão de última geração.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="licenciamento" class="py-32 px-6">
+        <div class="max-w-md mx-auto">
+            <div class="glass border-2 border-blue-600/30 p-12 rounded-[3.5rem] text-center shadow-2xl reveal">
+                <h2 class="text-2xl font-black uppercase italic mb-10">Licenciamento <span class="text-blue-600">Full Access</span></h2>
+                
+                <div class="mb-10">
+                    <span class="text-6xl font-black">R$ 36,49</span>
+                    <span class="block text-[10px] text-slate-500 font-black uppercase mt-4 tracking-widest italic">Taxa de Licenciamento Mensal</span>
+                </div>
+
+                <ul class="text-left space-y-5 text-xs font-bold text-slate-400 mb-12 border-y border-white/5 py-10">
+                    <li class="flex items-center gap-4"><i class="fa-solid fa-circle-check text-blue-600"></i> Licença para 02 Pontos de Acesso</li>
+                    <li class="flex items-center gap-4"><i class="fa-solid fa-circle-check text-blue-600"></i> Sincronização de Protocolos DuoCast</li>
+                    <li class="flex items-center gap-4"><i class="fa-solid fa-circle-check text-blue-600"></i> Atualizações de Segurança de Dados</li>
+                    <li class="flex items-center gap-4"><i class="fa-solid fa-circle-check text-blue-600"></i> Painel de Controle de Dispositivos</li>
+                </ul>
+
+                <button onclick="finalizar()" class="w-full bg-blue-600 hover:bg-blue-700 py-6 rounded-2xl font-black text-sm uppercase tracking-widest transition-all shadow-xl shadow-blue-600/20 active:scale-95">
+                    ATIVAR MINHA LICENÇA
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-16 border-t border-white/5 text-center">
+        <div class="opacity-30 text-[9px] font-black uppercase tracking-[0.4em]">
+            Pandda Labs | Desenvolvimento e Licenciamento de Software
+        </div>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => { if(entry.isIntersecting) entry.target.classList.add('active'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        function finalizar() {
+            window.open('https://mp.pandda.tv/checkout', '_blank');
+        }
+    </script>
+</body>
+</html>
